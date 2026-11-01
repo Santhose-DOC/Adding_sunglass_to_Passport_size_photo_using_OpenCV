@@ -1,5 +1,8 @@
 # Workshop 1 -- Adding Sunglasses to a Passport-Size Photo Using OpenCV
 
+### Name Developed by: SANTHOSE AROCKIRAJ J
+### RegisterNumber:  21222430248
+
 ## Aim
 
 To add sunglasses to a passport-size face photograph using OpenCV by
@@ -127,23 +130,47 @@ plt.show()
 
 ## Output
 
-1.  **Original Face Image:** The input passport-size photograph is
-    loaded and displayed.
-2.  **Sunglasses Image:** The PNG sunglasses image is loaded with its
-    alpha channel and resized to 350 × 135 pixels. The displayed
-    dimension is `(135, 350, 4)`.
-3.  **Sunglasses Color and Alpha Channels:** The BGR color channels and
-    grayscale alpha mask are displayed separately.
-4.  **Direct Overlay:** A copy of the face image is displayed with the
-    sunglasses placed over the eye region.
-5.  **Masked Eye Region:** The eye region is processed using the inverse
-    sunglasses mask.
-6.  **Masked Sunglasses Region:** The sunglasses are processed using the
-    alpha mask.
-7.  **Augmented Eye Region:** The masked eye and sunglasses regions are
-    combined using `cv2.add()`.
-8.  **Final Output:** The original photograph and the photograph with
-    sunglasses are displayed side by side.
+**Original Face Image:**
+
+<img width="280" height="347" alt="image" src="https://github.com/user-attachments/assets/78f7ee3d-c9d8-47b4-a6f2-00d30f0e95cc" />
+
+
+**Sunglasses Image:** 
+
+<img width="448" height="229" alt="image" src="https://github.com/user-attachments/assets/99f1ce34-fe61-48ca-acb2-964022146c34" />
+
+
+**Sunglasses Color and Alpha Channels:** 
+
+<img width="871" height="202" alt="image" src="https://github.com/user-attachments/assets/2469b6e7-825b-4336-ba24-e5ec91c57c92" />
+
+
+**Direct Overlay:** 
+
+<img width="293" height="338" alt="image" src="https://github.com/user-attachments/assets/f4867a96-5b82-4d6b-b863-9bdfee038db9" />
+
+
+**Masked Eye Region:** 
+
+<img width="703" height="317" alt="image" src="https://github.com/user-attachments/assets/8587f8ee-aa23-4e4f-ab38-9bd77dcf3759" />
+
+
+
+**Masked Sunglasses Region:**
+
+<img width="755" height="343" alt="image" src="https://github.com/user-attachments/assets/5f94d295-f60e-4f0b-a4d3-6b35a17499ec" />
+
+
+**Augmented Eye Region:**
+
+<img width="700" height="342" alt="image" src="https://github.com/user-attachments/assets/6b90aeab-af14-4d3f-9c76-15c7d29ee0fc" />
+
+
+**Final Output:** 
+
+<img width="870" height="556" alt="image" src="https://github.com/user-attachments/assets/05030860-acc2-4af1-8da5-e6444a1f2505" />
+
+
 
 *Note: The output depends on the input face and sunglasses images. Keep
 `my.jpeg` and `Image-Source-PlusPNG.com.png` in the working directory
