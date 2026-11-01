@@ -171,12 +171,6 @@ plt.show()
 <img width="870" height="556" alt="image" src="https://github.com/user-attachments/assets/05030860-acc2-4af1-8da5-e6444a1f2505" />
 
 
-
-*Note: The output depends on the input face and sunglasses images. Keep
-`my.jpeg` and `Image-Source-PlusPNG.com.png` in the working directory
-before executing the notebook. The eye-region coordinates are fixed as
-`[300:435, 260:610]` in this program.*
-
 ## Result
 
 Thus, sunglasses were successfully added to the passport-size photograph
